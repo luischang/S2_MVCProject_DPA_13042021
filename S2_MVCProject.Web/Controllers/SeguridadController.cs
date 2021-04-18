@@ -22,7 +22,7 @@ namespace S2_MVCProject.Web.Controllers
         {
             if (email == "luis@esan.edu.pe" && password == "123456")
             {
-                //return MiMenuPrincipal()
+                return RedirectToAction("Index", "Home", new { area = "Marketing" });
             }
 
 
